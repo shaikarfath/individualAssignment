@@ -1,4 +1,28 @@
 html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15; 
+  -webkit-text-size-adjust: 100%; 
+  }
+
+body {
+  margin: 0;
+  }
+
+.Name {
+  margin: 0.67em 0;
+  font-family: monospace, monospace;
+  font-size: 2em; 
+  
+  }
+
+  .from-my-orange {
+    --gradient-from-color: #FB5607;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(251, 86, 7, 0));
+  }
+  
+  .to-my-pink {
+    --gradient-to-color: #FF006E;
+  }
+
+a {
+  background-color: transparent;
   }
