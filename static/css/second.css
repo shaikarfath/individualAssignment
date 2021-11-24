@@ -7,22 +7,63 @@ body {
   margin: 0;
   }
 
-.Name {
-  margin: 0.67em 0;
-  font-family: monospace, monospace;
-  font-size: 2em; 
-  
-  }
+.main{
+  margin-left: 14em;
+  margin-top: 12em;
+  margin-right: 15em;
+}
 
-  .from-my-orange {
-    --gradient-from-color: #FB5607;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(251, 86, 7, 0));
-  }
-  
-  .to-my-pink {
-    --gradient-to-color: #FF006E;
-  }
+.navbar{
+  margin-left: 34em;
+  margin-right: 15em;
+  margin-top: 2em;
+}
 
-a {
-  background-color: transparent;
-  }
+.Name{
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 0.01ex;
+  background-image: linear-gradient(to right, var(--gradient-color-stops));
+  --gradient-from-color: #FF006E;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 0, 110, 0));
+  --gradient-to-color: #FF006E;
+  --gradient-from-color: #FB5607;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(251, 86, 7, 0));
+  
+}
+
+.about{
+  font-size: 1.2rem;
+  color:#756e6c;
+ }
+
+.font{
+  color: #756e6c;
+}
+
+
+.nav-link{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  
+ }
+ 
+.link {
+  font-size: 1.3rem;
+}
+
+.main a:hover {
+  --text-opacity: 1;
+  color: #FB5607;
+  color: rgba(251, 86, 7, var(--text-opacity));
+  --border-opacity: 1;
+  border-color: #FB5607;
+  border-color: rgba(251, 86, 7, var(--border-opacity));
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-duration: 200ms
+}
+  
