@@ -9,5 +9,9 @@ def home():
 def second():
     return render_template("second.html")
 
+@app.route("/third")
+def third():
+    return render_template("third.html")
+
 if __name__ == "__main__":
     app.run(debug=True) 
