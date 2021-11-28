@@ -2,8 +2,19 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     margin: 0; 
+    background-image: url(../css/images/third_background.jpg);
 }
   
   body {
     margin: 0; 
+    background-color: black;
+}
+
+.logo {
+  margin-left: 35em;
+}
+
+.logo button{
+  margin-left: 20rem;
+  background-color: blue;
 }
