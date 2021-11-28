@@ -2,12 +2,13 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     margin: 0; 
-    background-image: url(../css/images/third_background.jpg);
+    background-color: black;
 }
   
   body {
     margin: 0; 
-    background-color: black;
+    background-image: url(../css/images/third_background.jpg);
+    opacity: 2%;
 }
 
 .logo {
@@ -18,3 +19,4 @@ html {
   margin-left: 20rem;
   background-color: blue;
 }
+
