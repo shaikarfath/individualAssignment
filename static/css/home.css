@@ -60,6 +60,19 @@ html {
     margin-top: 0.8em;
  }
 
+ .flag-new::before {
+    content: "New!";
+    background-color: #087f23;
+    position: absolute;
+    top: 43rem;
+    left: 1rem;
+    padding: .3rem .5rem;
+    display: inline-block;
+    color: #fff;
+    font-weight: both;
+    transform: rotate(-20deg); }
+
+
  .four {
     background-image: url(../css/images/pic.png);
     color:#000;
@@ -196,7 +209,27 @@ html {
     font-weight: bold;
     word-spacing: normal;
 }
-
+a{
+    text-decoration: none;
+}
+.row a{
+    color:rgba(0, 0, 0, 0.98);
+    
+}
+.two a {
+    color: white;
+}
+.background a{
+    color: white;
+    text-decoration: underline;
+}
+.footer A{
+    text-decoration: underline;
+    color: black;
+}
+.two h2{
+    font-weight: bold;
+}
 .row{
     margin-top: 25px;
 }
